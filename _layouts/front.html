@@ -6,7 +6,7 @@
 <body id="page-top">
   {% include nav.html %}
 
-  <div>
+  <div id="header">
 	  {% capture header_p %}{% include header.md %}{% endcapture %}
 	  {{ header_p | markdownify }}
   </div>
@@ -15,7 +15,7 @@
   {% include services.html %}
 
 
-  <div>
+  <div id="portfolio">
 	  {% capture portfolio_p %}{% include portfolio.md %}{% endcapture %}
 	  {{ portfolio_p | markdownify }}
   </div>
